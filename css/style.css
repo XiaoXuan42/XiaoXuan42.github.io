@@ -1,0 +1,45 @@
+.container {
+    max-width: 880px;
+    margin: 48px auto;
+    padding: 0 48px;
+}
+
+.header {
+    margin-bottom: 42px;
+    height: 25px;
+}
+
+.header .nav-links {
+    float: right;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: underline;
+    color: #8F4B5D;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+.content {
+    margin: 0 30px;
+    font: 20px serif;
+    font-weight: 400;
+    color: black;
+}
+
+.content p {
+    margin: 15px 0 15px 0;
+}
+
+h1 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    color: #3D3F4F;
+}
