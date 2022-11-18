@@ -1,16 +1,12 @@
 .article_intro {
-    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
     width: 75%;
-    line-height: 1.6;
 }
 
-.article_title {
-    margin: 0px;
-}
-
-.article_title p, .article_title a {
-    margin: 0px;
-    font-size: 25px;
+.article_intro p {
+    margin: auto;
 }
 
 .article_date {
@@ -18,15 +14,10 @@
     width: 120px;
     text-align: right;
     margin-right: 20px;
-    font-size: 18px;
     color: #999999;
 }
 
-.article_description {
-    margin: 0px;
-}
-
-.article_description p {
-    margin: 0px;
-    font-size: 16px;
+.article_title {
+    float: left;
+    text-align: left;
 }
